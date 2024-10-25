@@ -30,7 +30,7 @@ function getRandomNumber(max) {
     return Math.ceil(Math.random() * max); 
   }
 
-  const randomNumber = getRandomNumber (100);
+const randomNumber = getRandomNumber (100);
   console.log(randomNumber);
 
 const handleClick = (ev) => {
@@ -45,10 +45,7 @@ const handleClick = (ev) => {
 
 
 
-    }
-    
-
-    
+    }    
 }
 button.addEventListener ("click", handleClick);
 
